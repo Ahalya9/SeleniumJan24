@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class BasePage {
+public class BasePage {     // This is Base Page 
 	
 	WebDriver driver;
 	public BasePage(WebDriver driver) {
@@ -49,5 +49,4 @@ public class BasePage {
 		Select select = new Select(e);
 		select.selectByIndex(x);
 	}
-
 }
