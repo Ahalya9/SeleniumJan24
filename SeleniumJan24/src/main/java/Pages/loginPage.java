@@ -9,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class loginPage extends BasePage {
 	
 	//1. Page elements 2.  page actions 3. Page Factory in constructor
+	//Thank you
 	
 	public loginPage(WebDriver driver) {
 		super(driver);
